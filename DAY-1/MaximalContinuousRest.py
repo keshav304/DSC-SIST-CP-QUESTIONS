@@ -1,4 +1,4 @@
-# Problem- https://codeforces.com/problemset/problem/1141/B?csrf_token=e90f1e683f715b37f554b765f3e6295f
+# Problem:- https://codeforces.com/problemset/problem/1141/B?csrf_token=e90f1e683f715b37f554b765f3e6295f
 
 n = int(input())
 arr = list(map(int, input().split()))
