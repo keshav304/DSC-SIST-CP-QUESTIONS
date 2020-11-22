@@ -1,4 +1,4 @@
-# Problem https://codeforces.com/problemset/problem/1234/B1
+# Problem:- https://codeforces.com/problemset/problem/1234/B1
 
 n,k = map(int, input().split())
 karr = list(map(int, input().split()))
