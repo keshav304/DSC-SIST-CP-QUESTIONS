@@ -1,0 +1,10 @@
+#problem:- https://www.codechef.com/LRNDSA01/problems/FLOW007
+
+try:
+    arr = [input() for _ in range(int(input()))]
+    arr2 = [i[::-1] for i in arr]
+    for j in arr2:
+        print(int(j))
+except EOFError as e:
+    print(end=" ")
+        # cook your dish here
