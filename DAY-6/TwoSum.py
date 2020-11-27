@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/two-sum
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         mapp = {}
@@ -8,5 +9,3 @@ class Solution:
             else:
                 mapp[nums[i]] = i
 
-
-print(Solution.twoSum([-3, 4, 3, 90], 0))
