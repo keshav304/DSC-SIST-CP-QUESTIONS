@@ -10,5 +10,3 @@ def isAnagram(s: str, t: str) -> bool:
             map_t[i] = t.count(i)
     return map_s == map_t
 
-
-print(isAnagram("a", "b"))
