@@ -1,4 +1,5 @@
 # Lily's Homework: https://www.hackerrank.com/challenges/lilys-homework
+# not completed
 def lilysHomework(arr):
     l= len(arr)
     print(arr)
