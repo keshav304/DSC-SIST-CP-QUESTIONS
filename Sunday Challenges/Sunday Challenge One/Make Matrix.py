@@ -1,10 +1,19 @@
-# Brute force
-print(sum([i for i in range(1000) if i % 3 == 0 or i % 5 == 0]))
+# problem https://www.hackerrank.com/contests/dsc-sist-competitive-coding-cookoff/challenges/make-matrix/problem
 
-# Better approach
-def Sum(n, p):
-    return n * (p / n) * ((p / n) + 1) / 2
-
-
-result = int(Sum(3, 999)) + Sum(5, 999) - Sum(15, 999)
-print(int(result))
+i,j = map(int, input().split())
+arr=[]
+arr2=[]
+h=0
+v=0
+n=1
+while v<j:
+    while h<i:
+        arr2.append(n)
+        n+=1
+        h+=1
+    arr.append(arr2)
+    arr2=[]
+    v+=1
+    h=0
+for i in arr:
+    print(*i)
